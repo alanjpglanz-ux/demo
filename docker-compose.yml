@@ -1,8 +1,0 @@
-version: '3'
-services:
-  autarkeia:
-    build: .
-    ports:
-      - "8080:8008"
-    environment:
-      - AUTARKEIA_ENV=prod
